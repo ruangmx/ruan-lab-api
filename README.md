@@ -12,6 +12,7 @@ Esta é uma API técnica desenvolvida para estudos de backend, focada em entende
 - [x] Rota de teste (`/hello`) retornando JSON.
 - [x] Configuração de `.gitignore` para segurança do projeto.
 
+
 ## 🚀 Como rodar o projeto
 1. Clone o repositório:
    ```bash

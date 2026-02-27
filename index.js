@@ -10,6 +10,20 @@ app.get('/teste', (req, res) => {
   });
 });
 
+app.get('/hello-v2', (req, res) => {
+  const nome = req.query.nome;
+
+  if (!nome) {
+    return res.status(400).json({
+      erro: "Você precisa informar um nome. Exemplo: /hello-v2?nome=Ruan"
+    });
+  }
+
+  res.json({
+    mensagem: `Olá, ${nome}!`
+  });
+});
+
 app.listen(port, () => {
-    console.log(`🚀 Servidor pronto!`);
+  console.log(`🚀 Servidor pronto!`);
 });

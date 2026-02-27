@@ -1,7 +1,7 @@
 {
   "name": "ruan-lab-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Esta é uma API técnica desenvolvida para estudos de backend, focada em entender o funcionamento de rotas, servidores Node.js e integração com o GitHub.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +12,14 @@
   "type": "commonjs",
   "dependencies": {
     "express": "^5.2.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruangmx/ruan-lab-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ruangmx/ruan-lab-api/issues"
+  },
+  "homepage": "https://github.com/ruangmx/ruan-lab-api#readme"
 }
